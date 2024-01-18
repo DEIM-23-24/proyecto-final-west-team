@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1648778222390931199
+--- !u!1 &1676399340946753033
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8560125215281003568}
-  - component: {fileID: 4238453342930691688}
-  - component: {fileID: 5005540658673788311}
+  - component: {fileID: 223931716364575168}
+  - component: {fileID: 3328890363973777191}
+  - component: {fileID: 5161427223873814307}
   m_Layer: 0
-  m_Name: tex8_moneda
+  m_Name: tex9_botas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8560125215281003568
+--- !u!4 &223931716364575168
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648778222390931199}
+  m_GameObject: {fileID: 1676399340946753033}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.395912, y: -4.76, z: 1.2130356}
+  m_LocalRotation: {x: -0.000000033904726, y: 0.9650461, z: 0.000000045668383, w: 0.2620802}
+  m_LocalPosition: {x: -9.43, y: -4.128, z: -16.270004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9171957492328612556}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4238453342930691688
+  m_Father: {fileID: 5515707487917392962}
+  m_LocalEulerAnglesHint: {x: 0, y: 149.613, z: 0}
+--- !u!33 &3328890363973777191
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648778222390931199}
-  m_Mesh: {fileID: 1254235479286181451, guid: a3b6de11e0f61d64fa7b72664c5d2b81, type: 3}
---- !u!23 &5005540658673788311
+  m_GameObject: {fileID: 1676399340946753033}
+  m_Mesh: {fileID: 6485829228689179703, guid: 8aa02ef4feadc55448cd11a63e634125, type: 3}
+--- !u!23 &5161427223873814307
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648778222390931199}
+  m_GameObject: {fileID: 1676399340946753033}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e0b25eea34ae4ee4ebe2ae421053960e, type: 2}
+  - {fileID: 2100000, guid: 36ba3abd981435f429c0dcc70072bd66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,7 +83,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2604907253873560004
+--- !u!1 &8412643036672119410
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,27 +91,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9171957492328612556}
+  - component: {fileID: 5515707487917392962}
   m_Layer: 0
-  m_Name: Moneda
+  m_Name: Botas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9171957492328612556
+--- !u!4 &5515707487917392962
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2604907253873560004}
+  m_GameObject: {fileID: 8412643036672119410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8560125215281003568}
+  - {fileID: 223931716364575168}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
