@@ -180,6 +180,71 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 897f0734ecc23444d9f60786088d8319, type: 3}
+--- !u!1001 &223609900
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 318311073844858098, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 254aeba79d0818647bd57730bda0173f, type: 2}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.542616
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2736859
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797328527040839699, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_Name
+      value: Rejojpollitapollitapollita (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618575527574062696, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 254aeba79d0818647bd57730bda0173f, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
 --- !u!1001 &265524775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -754,6 +819,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d10418d46a6350341a5b89f9e708f9e9, type: 3}
+--- !u!1001 &1072948870
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.03712
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.39108324
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435314195916661395, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797328527040839699, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
+      propertyPath: m_Name
+      value: Rejojpollitapollitapollita (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fc8dd2279f249a4cb522f242e42029d, type: 3}
 --- !u!1001 &1200347663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2419,3 +2541,5 @@ SceneRoots:
   - {fileID: 2506598420588747527}
   - {fileID: 9079619384755616899}
   - {fileID: 8612469561542812862}
+  - {fileID: 1072948870}
+  - {fileID: 223609900}

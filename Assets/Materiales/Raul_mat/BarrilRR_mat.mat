@@ -14,7 +14,6 @@ Material:
   m_ValidKeywords:
   - COLOR_GRADING_HDR
   - VIGNETTE_CLASSIC
-  - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords: []
@@ -229,7 +228,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: aa5ee5d43724d4e41a244ad73d0abe6d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 239424a18d7e086498ba3a42d1e331af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -501,7 +500,7 @@ Material:
     - _AudioLinkTextureVisualization: 0
     - _BRDFAnisotropy: 0
     - _BRDFForceFallback: 0
-    - _BRDFGlossiness: 1
+    - _BRDFGlossiness: 0.66
     - _BRDFInvertGlossiness: 0
     - _BRDFMetallic: 1
     - _BRDFMetallicGlossMapToolTip: 0
@@ -709,7 +708,7 @@ Material:
     - _EnableFlipbook: 0
     - _EnableGITDEmission: 0
     - _EnableGITDEmission1: 0
-    - _EnableLighting: 1
+    - _EnableLighting: 0
     - _EnableMetallic: 0
     - _EnableMirrorOptions: 0
     - _EnableMirrorTexture: 0
@@ -961,14 +960,14 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 0.403
+    - _RimLightColorBias: 0.742
     - _RimLightNormal: 1
     - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.357
+    - _RimSharpness: 0.395
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.339
+    - _RimWidth: 0.488
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -977,7 +976,7 @@ Material:
     - _SSSThicknessMapUV: 0
     - _SSSThicknessMod: 0
     - _SampleWorld: 0
-    - _Saturation: 0
+    - _Saturation: -0.13
     - _ScrollingEmission: 0
     - _ScrollingEmission1: 0
     - _ShadeColor_Step: 0
@@ -1222,8 +1221,8 @@ Material:
     - m_start_GrabPass: 0
     - m_start_Hologram: 0
     - m_start_Iridescence: 0
-    - m_start_Lighting: 0
-    - m_start_MainHueShift: 0
+    - m_start_Lighting: 1
+    - m_start_MainHueShift: 1
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
     - m_start_Metallic: 0
@@ -1299,7 +1298,7 @@ Material:
     - m_start_scrollingEmissionOptions1: 0
     - m_start_specular: 0
     - m_start_specular1: 0
-    - m_start_subsurface: 1
+    - m_start_subsurface: 0
     - m_start_vertexManipulation: 0
     - m_start_voronoiRandom: 0
     - shader_is_using_thry_editor: 69

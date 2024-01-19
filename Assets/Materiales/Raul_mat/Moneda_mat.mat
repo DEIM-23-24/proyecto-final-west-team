@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - AUTO_EXPOSURE
+  - COLOR_GRADING_HDR
   - VIGNETTE_CLASSIC
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
@@ -526,7 +527,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 2.49
+    - _BumpScale: 1.44
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
@@ -831,7 +832,7 @@ Material:
     - _MainHueShift: 0
     - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
-    - _MainHueShiftToggle: 0
+    - _MainHueShiftToggle: 1
     - _MainMaxAlpha: 1
     - _MainMinAlpha: 0
     - _MainMipScale: 0.25
@@ -1224,7 +1225,7 @@ Material:
     - m_start_Hologram: 0
     - m_start_Iridescence: 0
     - m_start_Lighting: 0
-    - m_start_MainHueShift: 0
+    - m_start_MainHueShift: 1
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
     - m_start_Metallic: 0
@@ -1301,7 +1302,7 @@ Material:
     - m_start_specular: 0
     - m_start_specular1: 0
     - m_start_subsurface: 0
-    - m_start_vertexManipulation: 1
+    - m_start_vertexManipulation: 0
     - m_start_voronoiRandom: 0
     - shader_is_using_thry_editor: 69
     - shader_master_label: 0
@@ -1475,7 +1476,7 @@ Material:
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalRPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimEnviroMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _RimLightColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+    - _RimLightColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimWidthNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}

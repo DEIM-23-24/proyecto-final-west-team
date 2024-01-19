@@ -80,10 +80,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6403642625834613278, guid: d55aa3e77da271d4ea4cc10d35d0bc0e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c48d77bad749d0345abdca685f6fd30d, type: 2}
     - target: {fileID: 919132149155446097, guid: d55aa3e77da271d4ea4cc10d35d0bc0e, type: 3}
       propertyPath: m_Name
       value: Hacha03
       objectReference: {fileID: 0}
+    - target: {fileID: 3813579268132772006, guid: d55aa3e77da271d4ea4cc10d35d0bc0e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8185e5f0a1ad1844b10922ceae8ade5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

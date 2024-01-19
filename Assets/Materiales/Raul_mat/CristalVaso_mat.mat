@@ -1223,7 +1223,7 @@ Material:
     - m_start_GrabPass: 0
     - m_start_Hologram: 0
     - m_start_Iridescence: 0
-    - m_start_Lighting: 0
+    - m_start_Lighting: 1
     - m_start_MainHueShift: 0
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
@@ -1295,12 +1295,12 @@ Material:
     - m_start_reflectionRim: 0
     - m_start_rimHueShift: 0
     - m_start_rimLightOptions: 1
-    - m_start_rimWidthNoise: 0
+    - m_start_rimWidthNoise: 1
     - m_start_scrollingEmissionOptions: 0
     - m_start_scrollingEmissionOptions1: 0
     - m_start_specular: 0
     - m_start_specular1: 0
-    - m_start_subsurface: 1
+    - m_start_subsurface: 0
     - m_start_vertexManipulation: 0
     - m_start_voronoiRandom: 0
     - shader_is_using_thry_editor: 69

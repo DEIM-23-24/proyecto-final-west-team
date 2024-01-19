@@ -17,7 +17,6 @@ Material:
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-  - _SPECGLOSSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -503,9 +502,9 @@ Material:
     - _AudioLinkTextureVisualization: 0
     - _BRDFAnisotropy: 1
     - _BRDFForceFallback: 0
-    - _BRDFGlossiness: 0
+    - _BRDFGlossiness: 1
     - _BRDFInvertGlossiness: 0
-    - _BRDFMetallic: 1
+    - _BRDFMetallic: 0.884
     - _BRDFMetallicGlossMapToolTip: 0
     - _BRDFMetallicGlossMapUV: 0
     - _BRDFMetallicMapToolTip: 0
@@ -719,7 +718,7 @@ Material:
     - _EnableRandom: 0
     - _EnableRimLighting: 1
     - _EnableSSS: 0
-    - _EnableSpecular: 1
+    - _EnableSpecular: 0
     - _EnableSpecular1: 0
     - _FlipbookAdd: 0
     - _FlipbookAlphaControlsFinalAlpha: 0
@@ -819,7 +818,7 @@ Material:
     - _LightingUncapped: 0
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
-    - _LineWidth: 0.75
+    - _LineWidth: 1
     - _LockTooltip: 0
     - _MainAlphaToCoverage: 0
     - _MainBrightness: 0
@@ -967,10 +966,10 @@ Material:
     - _RimLightNormal: 1
     - _RimLightingInvert: 0
     - _RimMaskUV: 0
-    - _RimSharpness: 0.444
+    - _RimSharpness: 0.734
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.647
+    - _RimWidth: 0.889
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -1228,7 +1227,7 @@ Material:
     - m_start_MainHueShift: 0
     - m_start_MainVertexColors: 0
     - m_start_Matcap2: 0
-    - m_start_Metallic: 1
+    - m_start_Metallic: 0
     - m_start_OutlineStencil: 0
     - m_start_PathAudioLink: 0
     - m_start_RGBMask: 0
@@ -1258,7 +1257,7 @@ Material:
     - m_start_blending: 0
     - m_start_blinkingEmissionOptions: 0
     - m_start_blinkingEmissionOptions1: 0
-    - m_start_brdf: 1
+    - m_start_brdf: 0
     - m_start_clearCoat: 0
     - m_start_crossfade: 0
     - m_start_debugOptions: 0
@@ -1282,7 +1281,7 @@ Material:
     - m_start_lightingHSL: 0
     - m_start_lightingModifiers: 0
     - m_start_manualFlipbookControl: 0
-    - m_start_matcap: 1
+    - m_start_matcap: 0
     - m_start_matcap2HueShift: 0
     - m_start_matcapHueShift: 0
     - m_start_mirrorOptions: 0
@@ -1299,8 +1298,8 @@ Material:
     - m_start_rimWidthNoise: 0
     - m_start_scrollingEmissionOptions: 0
     - m_start_scrollingEmissionOptions1: 0
-    - m_start_specular: 1
-    - m_start_specular1: 1
+    - m_start_specular: 0
+    - m_start_specular1: 0
     - m_start_subsurface: 0
     - m_start_vertexManipulation: 1
     - m_start_voronoiRandom: 0

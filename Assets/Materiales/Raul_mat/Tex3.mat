@@ -500,9 +500,9 @@ Material:
     - _AudioLinkTextureVisualization: 0
     - _BRDFAnisotropy: 0.139
     - _BRDFForceFallback: 0
-    - _BRDFGlossiness: 0.756
+    - _BRDFGlossiness: 0.385
     - _BRDFInvertGlossiness: 0
-    - _BRDFMetallic: 0.765
+    - _BRDFMetallic: 1
     - _BRDFMetallicGlossMapToolTip: 0
     - _BRDFMetallicGlossMapUV: 0
     - _BRDFMetallicMapToolTip: 0

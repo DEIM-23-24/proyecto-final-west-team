@@ -817,7 +817,7 @@ Material:
     - _LightingUncapped: 0
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
-    - _LineWidth: 5.69
+    - _LineWidth: 1
     - _LockTooltip: 0
     - _MainAlphaToCoverage: 0
     - _MainBrightness: 0
@@ -961,14 +961,14 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 0.276
+    - _RimLightColorBias: 0.628
     - _RimLightNormal: 1
     - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.205
+    - _RimSharpness: 0.234
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.291
+    - _RimWidth: 0.376
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -1193,7 +1193,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_lightingOptions: 1
     - m_mainOptions: 1
-    - m_outlineOptions: 0
+    - m_outlineOptions: 1
     - m_renderingOptions: 0
     - m_start_Alpha: 0
     - m_start_BlackLight: 0

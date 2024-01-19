@@ -968,7 +968,7 @@ Material:
     - _RimSharpness: 0.451
     - _RimStrength: 2.2
     - _RimTexUV: 0
-    - _RimWidth: 0.822
+    - _RimWidth: 0.756
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
