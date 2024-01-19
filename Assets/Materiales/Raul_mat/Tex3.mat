@@ -7,20 +7,23 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tex8
+  m_Name: Tex3
   m_Shader: {fileID: 4800000, guid: 917b37092bae034459c28c00a3a19b54, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - AUTO_EXPOSURE
+  - VIGNETTE_CLASSIC
   - VIGNETTE_MASKED
+  - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+  - _TERRAIN_NORMAL_MAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -51,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BRDFMetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f7a8184170752db4f9609a7cbc35be0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BRDFMetallicMap:
@@ -59,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BRDFSpecularMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e01c98e1ecedb4d4783142880d252116, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BackFaceTexture:
@@ -71,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f0608be0d3a9bc345a86d06e4f99615b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearcoatFallback:
@@ -83,7 +86,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClippingMask:
-        m_Texture: {fileID: 2800000, guid: bc44aaa3dfa91914395359474974ff9a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubeMap:
@@ -227,7 +230,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5066ce810ad7f9648917ccb5a71893d5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 574c70ce54b9bce419764707aa723d61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -247,7 +250,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f7a8184170752db4f9609a7cbc35be0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMask:
@@ -303,7 +306,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 14c0a3a45ce0080448be881b1c3cae2e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PathingColorMap:
@@ -411,11 +414,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ToonRamp:
-        m_Texture: {fileID: 2800000, guid: 61bd594533da4fc42bd46ef93ba5a4f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7b3c183412da24b4696036c47c2f2e95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexManipulationHeightMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 14c0a3a45ce0080448be881b1c3cae2e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -429,7 +432,7 @@ Material:
     - _2ndShadeMapMask_Inverse: 0
     - _2nd_ShadeMapUV: 0
     - _AOStrength: 1
-    - _AlphaMod: 0
+    - _AlphaMod: 0.066
     - _AlphaPremultiply: 0
     - _AlphaToMask: 0
     - _AngleCompareTo: 0
@@ -443,7 +446,7 @@ Material:
     - _AnisoTangentMapUV: 0
     - _AnisoUseTangentMap: 0
     - _AnisoUseTangentMap1: 0
-    - _AttenuationMultiplier: 0
+    - _AttenuationMultiplier: 0.08
     - _AudioLinkAddEmission1Band: 0
     - _AudioLinkAddEmissionBand: 0
     - _AudioLinkAnimToggle: 1
@@ -497,7 +500,7 @@ Material:
     - _AudioLinkRimEmissionBand: 0
     - _AudioLinkRimWidthBand: 0
     - _AudioLinkTextureVisualization: 0
-    - _BRDFAnisotropy: 0
+    - _BRDFAnisotropy: -1
     - _BRDFForceFallback: 0
     - _BRDFGlossiness: 0
     - _BRDFInvertGlossiness: 0
@@ -507,7 +510,7 @@ Material:
     - _BRDFMetallicMapToolTip: 0
     - _BRDFMetallicMapUV: 0
     - _BRDFMetallicSpecIgnoresBaseColor: 0
-    - _BRDFReflectance: 0.5
+    - _BRDFReflectance: 0
     - _BRDFReflectionsEnabled: 1
     - _BRDFSpecularEnabled: 1
     - _BRDFSpecularMapToolTip: 0
@@ -523,7 +526,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 0
+    - _BumpScale: 0.25
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
@@ -598,7 +601,7 @@ Material:
     - _DetailMaskUV: 0
     - _DetailNormalMapScale: 1
     - _DetailNormalMapUV: 0
-    - _DetailTexIntensity: 1
+    - _DetailTexIntensity: 10
     - _DetailTexUV: 0
     - _DisableDirectionalInAdd: 1
     - _DissolveAlpha: 0
@@ -691,7 +694,7 @@ Material:
     - _EmissiveScroll_Width1: 10
     - _EnableAudioLink: 0
     - _EnableAudioLinkDebug: 0
-    - _EnableBRDF: 0
+    - _EnableBRDF: 1
     - _EnableClearCoat: 0
     - _EnableDissolve: 0
     - _EnableDissolveAudioLink: 0
@@ -713,8 +716,8 @@ Material:
     - _EnableMirrorTexture: 0
     - _EnablePathing: 0
     - _EnableRandom: 0
-    - _EnableRimLighting: 0
-    - _EnableSSS: 0
+    - _EnableRimLighting: 1
+    - _EnableSSS: 1
     - _EnableSpecular: 0
     - _EnableSpecular1: 0
     - _FlipbookAdd: 0
@@ -775,11 +778,11 @@ Material:
     - _GlitterSpeed: 10
     - _GlitterTextureRotation: 0
     - _GlitterUseSurfaceColor: 0
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0.505
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IgnoreFog: 0
-    - _Inverse_Clipping: 1
+    - _Inverse_Clipping: 0
     - _InvertSmoothness: 0
     - _LightingAOTexUV: 0
     - _LightingAdditiveDetailStrength: 1
@@ -799,11 +802,11 @@ Material:
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
     - _LightingHSLIntensity: 1
-    - _LightingIgnoreAmbientColor: 0
+    - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectColorMode: 0
     - _LightingMinLightBrightness: 0
     - _LightingMinShadowBrightnessRatio: 0
-    - _LightingMode: 4
+    - _LightingMode: 0
     - _LightingMonochromatic: 0
     - _LightingOnlyUnityShadows: 0
     - _LightingRampType: 0
@@ -815,7 +818,7 @@ Material:
     - _LightingUncapped: 0
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
-    - _LineWidth: 0
+    - _LineWidth: 1.5
     - _LockTooltip: 0
     - _MainAlphaToCoverage: 0
     - _MainBrightness: 0
@@ -832,10 +835,10 @@ Material:
     - _MainMaxAlpha: 1
     - _MainMinAlpha: 0
     - _MainMipScale: 0.25
-    - _MainShadowClipMod: 0
+    - _MainShadowClipMod: -0.001
     - _MainTextureUV: 0
     - _MainUseVertexColorAlpha: 0
-    - _MainVertexColoring: 0
+    - _MainVertexColoring: 1
     - _MainVertexColoringLinearSpace: 1
     - _Matcap2Add: 0
     - _Matcap2Border: 0.43
@@ -882,7 +885,7 @@ Material:
     - _OutlineHueOffset: 0
     - _OutlineHueOffsetSpeed: 0
     - _OutlineHueShift: 0
-    - _OutlineLit: 1
+    - _OutlineLit: 0
     - _OutlineMaskUV: 0
     - _OutlineMode: 0
     - _OutlineOffsetFactor: 0
@@ -899,7 +902,7 @@ Material:
     - _OutlineTextureUV: 0
     - _OutlineTintMix: 0
     - _OutlineUseVertexColors: 0
-    - _OutlinesMaxDistance: 9999
+    - _OutlinesMaxDistance: 0
     - _PPEmissionMultiplier: 1
     - _PPHelp: 0
     - _PPLightingMultiplier: 1
@@ -959,21 +962,21 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 1
+    - _RimLightColorBias: 0.688
     - _RimLightNormal: 1
-    - _RimLightingInvert: 0
+    - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.25
+    - _RimSharpness: 0.002
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.8
-    - _RimWidthNoiseStrength: 0.1
+    - _RimWidth: 0.24
+    - _RimWidthNoiseStrength: 0.041
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
-    - _SSSPower: 5
-    - _SSSSCale: 0.25
+    - _SSSPower: 17.8
+    - _SSSSCale: 0.445
     - _SSSThicknessMapUV: 0
-    - _SSSThicknessMod: 0
+    - _SSSThicknessMod: 1
     - _SampleWorld: 0
     - _Saturation: 0
     - _ScrollingEmission: 0
@@ -985,7 +988,7 @@ Material:
     - _ShadowMix: 0
     - _ShadowMixThreshold: 0.5
     - _ShadowMixWidthMod: 0.5
-    - _ShadowOffset: 0
+    - _ShadowOffset: -0.41
     - _ShadowStrength: 1
     - _Smoothness: 0
     - _SmoothnessFrom: 1
@@ -1063,15 +1066,15 @@ Material:
     - _Use_2ndShadeMapAlpha_As_ShadowMask: 0
     - _Use_BaseAs1st: 0
     - _VertexManipulationHeight: 0
-    - _VertexManipulationHeightBias: 0
+    - _VertexManipulationHeightBias: 0.521
     - _VertexManipulationHeightUV: 0
-    - _VertexManipulationsEnabled: 0
+    - _VertexManipulationsEnabled: 1
     - _VertexRoundingDivision: 500
-    - _VertexRoundingEnabled: 0
+    - _VertexRoundingEnabled: 1
     - _VertexUnwrap: 0
     - _ZTest: 4
     - _ZWrite: 1
-    - _commentIfZero_EnableOutlinePass: 0
+    - _commentIfZero_EnableOutlinePass: 1
     - _glitterFrequencyLinearEmissive: 20
     - footer_discord: 0
     - footer_github: 0
@@ -1080,8 +1083,8 @@ Material:
     - footer_youtube: 0
     - m_ParallaxMap: 0
     - m_Patreon: 0
-    - m_PostProcessing: 0
-    - m_Special_Effects: 1
+    - m_PostProcessing: 1
+    - m_Special_Effects: 0
     - m_end_Alpha: 0
     - m_end_BlackLight: 0
     - m_end_Blur: 0
@@ -1191,7 +1194,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_lightingOptions: 1
     - m_mainOptions: 1
-    - m_outlineOptions: 0
+    - m_outlineOptions: 1
     - m_renderingOptions: 0
     - m_start_Alpha: 0
     - m_start_BlackLight: 0
@@ -1245,7 +1248,7 @@ Material:
     - m_start_VideoDebug: 0
     - m_start_VideoSettings: 0
     - m_start_Voronoi: 0
-    - m_start_ambientOcclusion: 0
+    - m_start_ambientOcclusion: 1
     - m_start_angularFade: 0
     - m_start_audioLink: 0
     - m_start_audioLinkDebug: 0
@@ -1254,7 +1257,7 @@ Material:
     - m_start_blending: 0
     - m_start_blinkingEmissionOptions: 0
     - m_start_blinkingEmissionOptions1: 0
-    - m_start_brdf: 0
+    - m_start_brdf: 1
     - m_start_clearCoat: 0
     - m_start_crossfade: 0
     - m_start_debugOptions: 0
@@ -1282,7 +1285,7 @@ Material:
     - m_start_matcap2HueShift: 0
     - m_start_matcapHueShift: 0
     - m_start_mirrorOptions: 0
-    - m_start_outlineAdvanced: 0
+    - m_start_outlineAdvanced: 1
     - m_start_panosphereOptions: 0
     - m_start_parallaxAdvanced: 0
     - m_start_parallaxHeightmap: 0
@@ -1291,21 +1294,21 @@ Material:
     - m_start_pointToPoint: 0
     - m_start_reflectionRim: 0
     - m_start_rimHueShift: 0
-    - m_start_rimLightOptions: 0
+    - m_start_rimLightOptions: 1
     - m_start_rimWidthNoise: 0
     - m_start_scrollingEmissionOptions: 0
     - m_start_scrollingEmissionOptions1: 0
     - m_start_specular: 0
     - m_start_specular1: 0
     - m_start_subsurface: 0
-    - m_start_vertexManipulation: 0
+    - m_start_vertexManipulation: 1
     - m_start_voronoiRandom: 0
     - shader_is_using_thry_editor: 69
     - shader_master_label: 0
     - shader_presets: 0
     - shader_properties_label_file: 0
     m_Colors:
-    - _1st_ShadeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _1st_ShadeColor: {r: 0, g: 0, b: 0, a: 1}
     - _1st_ShadeMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _2nd_ShadeColor: {r: 1, g: 1, b: 1, a: 1}
     - _2nd_ShadeMapPan: {r: 0, g: 0, b: 0, a: 0}
@@ -1422,7 +1425,7 @@ Material:
     - _LightingDetailShadowsPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightingShadowMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainFadeTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
@@ -1472,7 +1475,7 @@ Material:
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalRPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimEnviroMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLightColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimWidthNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}
