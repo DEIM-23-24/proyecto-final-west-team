@@ -14,10 +14,8 @@ Material:
   m_ValidKeywords:
   - AUTO_EXPOSURE
   - VIGNETTE_CLASSIC
-  - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-  - _TERRAIN_NORMAL_MAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -414,7 +412,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ToonRamp:
-        m_Texture: {fileID: 2800000, guid: 7b3c183412da24b4696036c47c2f2e95, type: 3}
+        m_Texture: {fileID: 2800000, guid: 38be4733571a8fb44b754d4f34ca44fc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexManipulationHeightMask:
@@ -500,17 +498,17 @@ Material:
     - _AudioLinkRimEmissionBand: 0
     - _AudioLinkRimWidthBand: 0
     - _AudioLinkTextureVisualization: 0
-    - _BRDFAnisotropy: -1
+    - _BRDFAnisotropy: 0.139
     - _BRDFForceFallback: 0
-    - _BRDFGlossiness: 0
+    - _BRDFGlossiness: 0.756
     - _BRDFInvertGlossiness: 0
-    - _BRDFMetallic: 0
+    - _BRDFMetallic: 0.765
     - _BRDFMetallicGlossMapToolTip: 0
     - _BRDFMetallicGlossMapUV: 0
     - _BRDFMetallicMapToolTip: 0
     - _BRDFMetallicMapUV: 0
     - _BRDFMetallicSpecIgnoresBaseColor: 0
-    - _BRDFReflectance: 0
+    - _BRDFReflectance: 1
     - _BRDFReflectionsEnabled: 1
     - _BRDFSpecularEnabled: 1
     - _BRDFSpecularMapToolTip: 0
@@ -710,14 +708,14 @@ Material:
     - _EnableFlipbook: 0
     - _EnableGITDEmission: 0
     - _EnableGITDEmission1: 0
-    - _EnableLighting: 1
+    - _EnableLighting: 0
     - _EnableMetallic: 0
     - _EnableMirrorOptions: 0
     - _EnableMirrorTexture: 0
     - _EnablePathing: 0
     - _EnableRandom: 0
     - _EnableRimLighting: 1
-    - _EnableSSS: 1
+    - _EnableSSS: 0
     - _EnableSpecular: 0
     - _EnableSpecular1: 0
     - _FlipbookAdd: 0
@@ -786,7 +784,7 @@ Material:
     - _InvertSmoothness: 0
     - _LightingAOTexUV: 0
     - _LightingAdditiveDetailStrength: 1
-    - _LightingAdditiveEnable: 1
+    - _LightingAdditiveEnable: 0
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimitIntensity: 0
@@ -962,14 +960,14 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 0.688
+    - _RimLightColorBias: 0.535
     - _RimLightNormal: 1
-    - _RimLightingInvert: 1
+    - _RimLightingInvert: 0
     - _RimMaskUV: 0
-    - _RimSharpness: 0.002
+    - _RimSharpness: 0.895
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.24
+    - _RimWidth: 0.954
     - _RimWidthNoiseStrength: 0.041
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -1277,7 +1275,7 @@ Material:
     - m_start_glitterRandom: 0
     - m_start_glowInDarkEmissionOptions: 0
     - m_start_glowInDarkEmissionOptions1: 0
-    - m_start_lightingAdvanced: 0
+    - m_start_lightingAdvanced: 1
     - m_start_lightingHSL: 0
     - m_start_lightingModifiers: 0
     - m_start_manualFlipbookControl: 0
@@ -1479,7 +1477,7 @@ Material:
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimWidthNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}
-    - _SSSColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SSSColor: {r: 0, g: 0, b: 0, a: 1}
     - _SSSThicknessMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _SmoothnessMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularAnisoJitterMacro1Pan: {r: 0, g: 0, b: 0, a: 0}

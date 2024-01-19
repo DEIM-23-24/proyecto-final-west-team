@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - VIGNETTE_CLASSIC
   - VIGNETTE_MASKED
+  - _GLOSSYREFLECTIONS_OFF
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   - _TERRAIN_NORMAL_MAP
   m_InvalidKeywords: []
@@ -714,7 +715,7 @@ Material:
     - _EnableMirrorTexture: 0
     - _EnablePathing: 0
     - _EnableRandom: 0
-    - _EnableRimLighting: 0
+    - _EnableRimLighting: 1
     - _EnableSSS: 1
     - _EnableSpecular: 0
     - _EnableSpecular1: 0
@@ -960,14 +961,14 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 1
+    - _RimLightColorBias: 0.276
     - _RimLightNormal: 1
-    - _RimLightingInvert: 0
+    - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.25
+    - _RimSharpness: 0.205
     - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.109
+    - _RimWidth: 0.291
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -1292,7 +1293,7 @@ Material:
     - m_start_pointToPoint: 0
     - m_start_reflectionRim: 0
     - m_start_rimHueShift: 0
-    - m_start_rimLightOptions: 0
+    - m_start_rimLightOptions: 1
     - m_start_rimWidthNoise: 0
     - m_start_scrollingEmissionOptions: 0
     - m_start_scrollingEmissionOptions1: 0
@@ -1473,7 +1474,7 @@ Material:
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalRPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimEnviroMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLightColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimWidthNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}

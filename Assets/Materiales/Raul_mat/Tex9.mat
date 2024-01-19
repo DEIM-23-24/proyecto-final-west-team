@@ -12,10 +12,10 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - AUTO_EXPOSURE
   - VIGNETTE_CLASSIC
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
+  - _PARALLAXMAP
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -86,7 +86,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClippingMask:
-        m_Texture: {fileID: 2800000, guid: 66b10f4b003e9fc4d8e86c275a78d25e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubeMap:
@@ -294,7 +294,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxHeightMapMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66b10f4b003e9fc4d8e86c275a78d25e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxInternalMap:
@@ -504,17 +504,17 @@ Material:
     - _AudioLinkRimEmissionBand: 0
     - _AudioLinkRimWidthBand: 0
     - _AudioLinkTextureVisualization: 0
-    - _BRDFAnisotropy: 0
+    - _BRDFAnisotropy: -1
     - _BRDFForceFallback: 0
     - _BRDFGlossiness: 0
     - _BRDFInvertGlossiness: 0
-    - _BRDFMetallic: 0
+    - _BRDFMetallic: 1
     - _BRDFMetallicGlossMapToolTip: 0
     - _BRDFMetallicGlossMapUV: 0
     - _BRDFMetallicMapToolTip: 0
     - _BRDFMetallicMapUV: 0
     - _BRDFMetallicSpecIgnoresBaseColor: 0
-    - _BRDFReflectance: 0.5
+    - _BRDFReflectance: 0
     - _BRDFReflectionsEnabled: 1
     - _BRDFSpecularEnabled: 1
     - _BRDFSpecularMapToolTip: 0
@@ -530,7 +530,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 0
+    - _BumpScale: 1.79
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
@@ -918,7 +918,7 @@ Material:
     - _PanoToggle: 0
     - _Parallax: 0.01
     - _ParallaxBias: 0.42
-    - _ParallaxHeightMapEnabled: 0
+    - _ParallaxHeightMapEnabled: 1
     - _ParallaxHeightMapMaskUV: 0
     - _ParallaxInternalHeightFromAlpha: 0
     - _ParallaxInternalHeightmapMode: 0
@@ -929,7 +929,7 @@ Material:
     - _ParallaxInternalMaxFade: 1
     - _ParallaxInternalMinDepth: 0
     - _ParallaxInternalMinFade: 0
-    - _ParallaxMap: 0
+    - _ParallaxMap: 1
     - _ParallaxStrength: 0
     - _ParallaxUV: 0
     - _PathTypeB: 0
@@ -966,15 +966,15 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 0.971
+    - _RimLightColorBias: 0.727
     - _RimLightNormal: 1
     - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.039
-    - _RimStrength: 10
+    - _RimSharpness: 0
+    - _RimStrength: 0
     - _RimTexUV: 0
-    - _RimWidth: 0.457
-    - _RimWidthNoiseStrength: 0.1
+    - _RimWidth: 0.317
+    - _RimWidthNoiseStrength: 0
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
     - _SSSPower: 5
@@ -1072,7 +1072,7 @@ Material:
     - _VertexManipulationHeight: 0
     - _VertexManipulationHeightBias: 0
     - _VertexManipulationHeightUV: 0
-    - _VertexManipulationsEnabled: 1
+    - _VertexManipulationsEnabled: 0
     - _VertexRoundingDivision: 500
     - _VertexRoundingEnabled: 1
     - _VertexUnwrap: 0
@@ -1085,10 +1085,10 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_ParallaxMap: 0
+    - m_ParallaxMap: 1
     - m_Patreon: 0
     - m_PostProcessing: 0
-    - m_Special_Effects: 0
+    - m_Special_Effects: 1
     - m_end_Alpha: 0
     - m_end_BlackLight: 0
     - m_end_Blur: 0
@@ -1253,7 +1253,7 @@ Material:
     - m_start_VideoSettings: 0
     - m_start_Voronoi: 0
     - m_start_ambientOcclusion: 0
-    - m_start_angularFade: 0
+    - m_start_angularFade: 1
     - m_start_audioLink: 0
     - m_start_audioLinkDebug: 0
     - m_start_backFace: 0
@@ -1292,7 +1292,7 @@ Material:
     - m_start_outlineAdvanced: 0
     - m_start_panosphereOptions: 0
     - m_start_parallaxAdvanced: 0
-    - m_start_parallaxHeightmap: 0
+    - m_start_parallaxHeightmap: 1
     - m_start_parallaxInternal: 0
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
@@ -1435,7 +1435,7 @@ Material:
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _Matcap2Color: {r: 1, g: 1, b: 1, a: 1}
     - _Matcap2MaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _MatcapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapColor: {r: 0, g: 0, b: 0, a: 1}
     - _MatcapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _MetalReflectionTint: {r: 1, g: 1, b: 1, a: 1}
     - _MetallicMaskPan: {r: 0, g: 0, b: 0, a: 0}
