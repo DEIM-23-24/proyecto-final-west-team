@@ -20,9 +20,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
+    RenderType: Transparent
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -525,7 +525,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1.25
+    - _BumpScale: 0.58
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
@@ -645,7 +645,7 @@ Material:
     - _DistortionStrengthAudioLinkBand: 0
     - _DitherGradient: 0.1
     - _DitheringEnabled: 0
-    - _DstBlend: 0
+    - _DstBlend: 1
     - _Emission1CenterOutAddAudioLinkwidth: 1
     - _Emission1CenterOutAudioLinkWidth: 1
     - _EmissionBaseColorAsMap: 0
@@ -817,14 +817,14 @@ Material:
     - _LightingUncapped: 0
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
-    - _LineWidth: 2
+    - _LineWidth: 6.85
     - _LockTooltip: 0
     - _MainAlphaToCoverage: 0
     - _MainBrightness: 0
     - _MainColorAdjustTextureUV: 0
     - _MainDistanceFadeMax: 0
     - _MainDistanceFadeMin: 0
-    - _MainEmissionStrength: 0
+    - _MainEmissionStrength: 0.9
     - _MainFadeTextureUV: 0
     - _MainFadeType: 1
     - _MainHueShift: 0
@@ -872,7 +872,7 @@ Material:
     - _MetallicTintMapUV: 0
     - _Mirror: 0
     - _MirrorTextureUV: 0
-    - _Mode: 0
+    - _Mode: 4
     - _ModelAngleMax: 90
     - _ModelAngleMin: 45
     - _OcclusionStrength: 1
@@ -961,14 +961,14 @@ Material:
     - _RimHueShift: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
-    - _RimLightColorBias: 0.555
+    - _RimLightColorBias: 0.884
     - _RimLightNormal: 1
     - _RimLightingInvert: 1
     - _RimMaskUV: 0
-    - _RimSharpness: 0.337
-    - _RimStrength: 0
+    - _RimSharpness: 0.384
+    - _RimStrength: 11.7
     - _RimTexUV: 0
-    - _RimWidth: 0.514
+    - _RimWidth: 0.34
     - _RimWidthNoiseStrength: 0.1
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 1
@@ -1072,8 +1072,8 @@ Material:
     - _VertexRoundingEnabled: 0
     - _VertexUnwrap: 0
     - _ZTest: 4
-    - _ZWrite: 1
-    - _commentIfZero_EnableOutlinePass: 1
+    - _ZWrite: 0
+    - _commentIfZero_EnableOutlinePass: 0
     - _glitterFrequencyLinearEmissive: 20
     - footer_discord: 0
     - footer_github: 0
@@ -1192,8 +1192,8 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_voronoiRandom: 0
     - m_lightingOptions: 1
-    - m_mainOptions: 0
-    - m_outlineOptions: 0
+    - m_mainOptions: 1
+    - m_outlineOptions: 1
     - m_renderingOptions: 0
     - m_start_Alpha: 0
     - m_start_BlackLight: 0
@@ -1293,7 +1293,7 @@ Material:
     - m_start_pointToPoint: 0
     - m_start_reflectionRim: 0
     - m_start_rimHueShift: 0
-    - m_start_rimLightOptions: 0
+    - m_start_rimLightOptions: 1
     - m_start_rimWidthNoise: 0
     - m_start_scrollingEmissionOptions: 0
     - m_start_scrollingEmissionOptions1: 0

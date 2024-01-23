@@ -524,7 +524,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1
+    - _BumpScale: 1.08
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
@@ -826,7 +826,7 @@ Material:
     - _MainEmissionStrength: 0
     - _MainFadeTextureUV: 0
     - _MainFadeType: 1
-    - _MainHueShift: 0
+    - _MainHueShift: 1
     - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 1
@@ -1473,7 +1473,7 @@ Material:
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalRPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimEnviroMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _RimLightColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
+    - _RimLightColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimWidthNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}

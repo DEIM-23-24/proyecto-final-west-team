@@ -530,7 +530,7 @@ Material:
     - _BlendOp: 0
     - _BlendOpAlpha: 0
     - _BumpMapUV: 0
-    - _BumpScale: 1.79
+    - _BumpScale: 2.45
     - _CameraAngleMax: 90
     - _CameraAngleMin: 45
     - _Clearcoat: 1
