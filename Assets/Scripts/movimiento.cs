@@ -10,6 +10,7 @@ public class movimiento : MonoBehaviour
     public float velocidad;
     public float velocidadSalto;
     public bool suelo;
+    public float velocidadRotacion;
 
     public int cantidadSaltos;
 
@@ -23,17 +24,21 @@ public class movimiento : MonoBehaviour
     }
     void Update()
     {
-        float velocidadActualX = velocidad * Input.GetAxis("Horizontal");
-        float velocidadActualZ = velocidad * Input.GetAxis("Vertical");
-        rigidBody.velocity = new Vector3(velocidadActualX, rigidBody.velocity.y, velocidadActualZ);
+        Vector3 delante = Camera.main.GetComponent<Transform>().forward;
+        Vector3 derecha = Camera.main.GetComponent<Transform>().right;
+        delante.y = 0;
+        derecha.y = 0;
+        Vector3 total = delante * Input.GetAxis("Vertical") + derecha * Input.GetAxis("Horizontal");
+        Vector3 gravedad = new Vector3(0,rigidBody.velocity.y,0);
+        rigidBody.velocity = total * velocidad + gravedad;
         Vector3 vel = rigidBody.velocity;
         float velocidadActual = vel.magnitude;
         animator.SetFloat("Velocidad",velocidadActual);
         
-        Vector3 direccion = new Vector3(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
-        if(direccion.magnitude > 0){
-            float angulo = Mathf.Atan2(direccion.x,direccion.z) * Mathf.Rad2Deg;
-            transform.rotation =Quaternion.Euler(0, angulo, 0);
+        if(total.magnitude > 0){
+           
+           Quaternion mirarA = Quaternion.LookRotation(total.normalized, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation,mirarA, velocidadRotacion);
         }
         if (Input.GetKeyDown("space") && (suelo == true || contadorSalto < cantidadSaltos))
         {
