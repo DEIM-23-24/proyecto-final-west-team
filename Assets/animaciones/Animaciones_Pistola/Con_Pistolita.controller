@@ -235,7 +235,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Correr_Pistolita
-  m_Speed: 1
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3355517447206954535}
@@ -520,7 +520,7 @@ AnimatorStateMachine:
     m_Position: {x: 601.83826, y: 779.55884, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 16011458550735883}
-    m_Position: {x: 900, y: 770, z: 0}
+    m_Position: {x: 910, y: 780, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3312462289898670422}
     m_Position: {x: 890, y: 200, z: 0}
