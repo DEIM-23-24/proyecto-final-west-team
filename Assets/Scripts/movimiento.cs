@@ -43,7 +43,7 @@ public class movimiento : MonoBehaviour
            Quaternion mirarA = Quaternion.LookRotation(total.normalized, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation,mirarA, velocidadRotacion);
         }
-        if (Input.GetKeyDown("space") && (suelo == true || contadorSalto < cantidadSaltos) && contCullDownSalto > cullDownSalto)
+        if (Input.GetAxis("Jump") > 0 && (suelo == true || contadorSalto < cantidadSaltos) && contCullDownSalto > cullDownSalto)
         {
             Saltar();
         }
