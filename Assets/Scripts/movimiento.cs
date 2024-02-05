@@ -18,10 +18,13 @@ public class movimiento : MonoBehaviour
 
     private int contadorSalto;
 
+    private bool jumpPressed;
+
     void Start(){
         rigidBody = gameObject.GetComponent<Rigidbody>();
         animator = gameObject.GetComponent<Animator>();
         suelo = true;
+        jumpPressed= false;
         contadorSalto = 0;
     }
     void Update()
@@ -43,9 +46,13 @@ public class movimiento : MonoBehaviour
            Quaternion mirarA = Quaternion.LookRotation(total.normalized, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation,mirarA, velocidadRotacion);
         }
-        if (Input.GetAxis("Jump") > 0 && (suelo == true || contadorSalto < cantidadSaltos) && contCullDownSalto > cullDownSalto)
+        if (Input.GetAxis("Jump") > 0 && (suelo == true || contadorSalto < cantidadSaltos) && contCullDownSalto > cullDownSalto && !jumpPressed)
         {
+            jumpPressed = true;
             Saltar();
+        }
+        if(Input.GetAxis("Jump") == 0){
+            jumpPressed = false;
         }
         contCullDownSalto += Time.deltaTime;
     }
