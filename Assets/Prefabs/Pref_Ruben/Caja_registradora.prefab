@@ -44,9 +44,10 @@ GameObject:
   - component: {fileID: 4530193101983296536}
   - component: {fileID: 1242354783984479026}
   - component: {fileID: 5593861214677554659}
+  - component: {fileID: 3917312130956864617}
   m_Layer: 0
   m_Name: RELOJ_RIFLE_CAJA_Caja_Registradora2
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,6 +117,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3917312130956864617
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210778599416307845}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6477584740573527554, guid: 2310b888633f4bd46a880afceee22b67, type: 3}
 --- !u!1 &7145321956854792282
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,9 +150,10 @@ GameObject:
   - component: {fileID: 1323998393031789027}
   - component: {fileID: 2493474765111913935}
   - component: {fileID: 1340533840053997005}
+  - component: {fileID: 8312765762246619408}
   m_Layer: 0
   m_Name: textureEditorIsolateSelectSet_RELOJ_RIFLE_CAJA_Caja_Registradora2
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,3 +223,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8312765762246619408
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145321956854792282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2696049793197845356, guid: 2310b888633f4bd46a880afceee22b67, type: 3}

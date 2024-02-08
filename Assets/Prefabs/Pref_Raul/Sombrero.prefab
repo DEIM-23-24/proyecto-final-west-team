@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5015508819311545438}
   - component: {fileID: 5990974107911467536}
   - component: {fileID: 4071204087514201185}
+  - component: {fileID: 8806900476545242793}
   m_Layer: 0
   m_Name: Sombrero_tex9
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8806900476545242793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4357560216850462769}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -351840642368063561, guid: 8aa02ef4feadc55448cd11a63e634125, type: 3}
 --- !u!1 &7312802537994496369
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +117,7 @@ GameObject:
   - component: {fileID: 1051852930054559935}
   m_Layer: 0
   m_Name: Sombrero
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

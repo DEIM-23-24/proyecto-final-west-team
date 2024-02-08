@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9070781560297848997}
   m_Layer: 0
   m_Name: Botella_Raul
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,10 @@ GameObject:
   - component: {fileID: 3543551735201015093}
   - component: {fileID: 7435887496557203780}
   - component: {fileID: 3329971035254369917}
+  - component: {fileID: 926294201706282146}
   m_Layer: 0
   m_Name: tex8_whisky1
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,6 +118,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &926294201706282146
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727294302108892739}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6526705616409116560, guid: a3b6de11e0f61d64fa7b72664c5d2b81, type: 3}
 --- !u!1 &1775201647948755633
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,9 +151,10 @@ GameObject:
   - component: {fileID: 3848050530507761244}
   - component: {fileID: 6540604963202018716}
   - component: {fileID: 8833500035435115954}
+  - component: {fileID: 5198402612213717387}
   m_Layer: 0
   m_Name: tex8_tapon
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,6 +224,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5198402612213717387
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775201647948755633}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7521309142122613355, guid: a3b6de11e0f61d64fa7b72664c5d2b81, type: 3}
 --- !u!1 &5330730595122257911
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,9 +257,10 @@ GameObject:
   - component: {fileID: 7574131582436556709}
   - component: {fileID: 7542515005499187626}
   - component: {fileID: 8286929234466586729}
+  - component: {fileID: 8111086052190197783}
   m_Layer: 0
   m_Name: tex8_botella
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,3 +330,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8111086052190197783
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330730595122257911}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7915480713420685614, guid: a3b6de11e0f61d64fa7b72664c5d2b81, type: 3}

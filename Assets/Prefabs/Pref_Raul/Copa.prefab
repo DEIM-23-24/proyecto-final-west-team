@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7998327282062444666}
   - component: {fileID: 5799668083872469217}
   - component: {fileID: 7074837704308567375}
+  - component: {fileID: 499026582411378406}
   m_Layer: 0
   m_Name: tex8_copa
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &499026582411378406
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080114918203111458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7955218980545177312, guid: a3b6de11e0f61d64fa7b72664c5d2b81, type: 3}
 --- !u!1 &8795996221492762393
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +117,7 @@ GameObject:
   - component: {fileID: 7626861750457410021}
   m_Layer: 0
   m_Name: Copa
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
