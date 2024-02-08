@@ -13,13 +13,18 @@ public class movimiento : MonoBehaviour
     public float velocidadRotacion;
 
     public int cantidadSaltos;
+    public float cullDownSalto;
+    private float contCullDownSalto = 0;
 
     private int contadorSalto;
+
+    private bool jumpPressed;
 
     void Start(){
         rigidBody = gameObject.GetComponent<Rigidbody>();
         animator = gameObject.GetComponent<Animator>();
         suelo = true;
+        jumpPressed= false;
         contadorSalto = 0;
     }
     void Update()
@@ -34,22 +39,26 @@ public class movimiento : MonoBehaviour
         Vector3 vel = rigidBody.velocity;
         float velocidadActual = vel.magnitude;
         animator.SetFloat("Velocidad",velocidadActual);
+        animator.SetFloat("Velocidad Vertical",vel.y);
         
         if(total.magnitude > 0){
            
            Quaternion mirarA = Quaternion.LookRotation(total.normalized, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation,mirarA, velocidadRotacion);
         }
-        if (Input.GetKeyDown("space") && (suelo == true || contadorSalto < cantidadSaltos))
+        if (Input.GetAxis("Jump") > 0 && (suelo == true || contadorSalto < cantidadSaltos) && contCullDownSalto > cullDownSalto && !jumpPressed)
         {
+            jumpPressed = true;
             Saltar();
         }
+        if(Input.GetAxis("Jump") == 0){
+            jumpPressed = false;
+        }
+        contCullDownSalto += Time.deltaTime;
     }
     public void Saltar(){
-        if(contadorSalto == 0){
-            animator.SetTrigger("Saltar");
-            animator.ResetTrigger("Suelo");
-        }
+        animator.SetTrigger("Saltar");
+        animator.ResetTrigger("Suelo");
         suelo = false;
         contadorSalto++;
         rigidBody.AddForce(new Vector3(0,velocidadSalto,0),ForceMode.Impulse);
@@ -58,9 +67,13 @@ public class movimiento : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Chocar");
+        Debug.Log(collision.gameObject.name);
+        Debug.Log(collision.gameObject.tag);
         if(collision.gameObject.tag == "suelo"){
             suelo = true;
             contadorSalto = 0;
+            contCullDownSalto = 0;
             animator.SetTrigger("Suelo");
         }
     }

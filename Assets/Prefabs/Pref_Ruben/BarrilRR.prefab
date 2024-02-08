@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7309721438320540483}
   m_Layer: 0
   m_Name: Piano_CajaFuerte_Barril_Barril
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
