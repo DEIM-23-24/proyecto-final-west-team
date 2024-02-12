@@ -283,7 +283,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Correr_Pistolita
-  m_Speed: 0.3
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3355517447206954535}
@@ -297,7 +297,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 28595fc2a2890d647bb36bd982e67380, type: 2}
+  m_Motion: {fileID: 1827226128182048838, guid: c58d1c66f5e91af43b9565b01ee8c66e, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -618,7 +618,7 @@ AnimatorStateMachine:
     m_Position: {x: 20, y: 840, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 16011458550735883}
-    m_Position: {x: 290, y: 600, z: 0}
+    m_Position: {x: 200, y: 570, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3312462289898670422}
     m_Position: {x: 890, y: 200, z: 0}
@@ -642,7 +642,7 @@ AnimatorStateMachine:
     m_Position: {x: 1110, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 201844576633229910}
-    m_Position: {x: 490, y: 830, z: 0}
+    m_Position: {x: 620, y: 840, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

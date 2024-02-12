@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - suelo
+  - Sonido
   layers:
   - Default
   - TransparentFX
