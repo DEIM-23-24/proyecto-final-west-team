@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6663565208128459737}
   m_Layer: 0
   m_Name: Botella3
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 5628464720075040790}
   - component: {fileID: 7515565394682192919}
   - component: {fileID: 7558813286610599216}
+  - component: {fileID: 7308837734248703207}
   m_Layer: 0
   m_Name: Lamparas_Botellas_Blue_Label
   m_TagString: Untagged
@@ -115,3 +116,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7308837734248703207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5225804439987582921}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7438559040165821083, guid: 9bcbaa8a807e00649b2442a9f80e1c2a, type: 3}
