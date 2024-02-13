@@ -101,6 +101,8 @@ GameObject:
   - component: {fileID: 5047412819632968118}
   - component: {fileID: 5373807525171016038}
   - component: {fileID: 4324888554192998050}
+  - component: {fileID: 4316419740068768693}
+  - component: {fileID: 125925922045723051}
   m_Layer: 0
   m_Name: Paredes
   m_TagString: Untagged
@@ -170,8 +172,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
-  m_Size: {x: 28.914185, y: 13.780927, z: 0.21384811}
-  m_Center: {x: 0.05072069, y: 7.215218, z: 11.46855}
+  m_Size: {x: 28.914185, y: 13.780927, z: 0.13848877}
+  m_Center: {x: 0.050720215, y: 7.215218, z: 11.506229}
 --- !u!65 &2203552905846672115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -319,6 +321,48 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4250488, y: 14.646986, z: 1.4674835}
   m_Center: {x: 15.209166, y: 6.823493, z: -11.576143}
+--- !u!65 &4316419740068768693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605614221178574555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.2629547, y: 9.851412, z: 0.63188744}
+  m_Center: {x: -8.879084, y: 4.425705, z: 12.064286}
+--- !u!65 &125925922045723051
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605614221178574555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.091339, y: 14.51174, z: 0.51935196}
+  m_Center: {x: -13.489168, y: 6.75587, z: 12.196772}
 --- !u!1 &3170703397855475538
 GameObject:
   m_ObjectHideFlags: 0
