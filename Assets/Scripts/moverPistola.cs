@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class moverPistola : MonoBehaviour
 {
@@ -25,5 +26,7 @@ public bool arriba;
         }else{
             gameObject.GetComponent<RectTransform>().anchoredPosition = new Vector3(-806, posExit, 0);
             }
+        if (arriba && (Input.GetKeyDown(KeyCode.Return)))
+        SceneManager.LoadScene("Lvl1");
     }
 }
