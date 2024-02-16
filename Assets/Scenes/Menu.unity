@@ -123,32 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &110601440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3306277556977575767, guid: f2e4711d9b23e10409be81291e34b1b6, type: 3}
-  m_PrefabInstance: {fileID: 1747956515}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &110601445
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110601440}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 51a01fd769853a54185a77b87fed84a6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &418460383
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,13 +375,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3306277557906242825, guid: f2e4711d9b23e10409be81291e34b1b6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3306277557906242826, guid: f2e4711d9b23e10409be81291e34b1b6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d19ceb7b32b3623409f16e99094a764f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3306277556977575767, guid: f2e4711d9b23e10409be81291e34b1b6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 110601445}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2e4711d9b23e10409be81291e34b1b6, type: 3}
 --- !u!1 &2124938251
 GameObject:
