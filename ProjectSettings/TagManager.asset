@@ -6,6 +6,7 @@ TagManager:
   tags:
   - suelo
   - Sonido
+  - Win
   layers:
   - Default
   - TransparentFX

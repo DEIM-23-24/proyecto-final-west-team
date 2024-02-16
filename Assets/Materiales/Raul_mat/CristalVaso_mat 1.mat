@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CristalVaso_mat
+  m_Name: CristalVaso_mat 1
   m_Shader: {fileID: 4800000, guid: 917b37092bae034459c28c00a3a19b54, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -969,11 +969,11 @@ Material:
     - _RimLightNormal: 1
     - _RimLightingInvert: 0
     - _RimMaskUV: 0
-    - _RimSharpness: 0.678
+    - _RimSharpness: 0
     - _RimStrength: 20
     - _RimTexUV: 0
-    - _RimWidth: 0.745
-    - _RimWidthNoiseStrength: 0.1
+    - _RimWidth: 0.564
+    - _RimWidthNoiseStrength: 0.662
     - _RimWidthNoiseTextureUV: 0
     - _SSSDistortion: 0
     - _SSSPower: 100
