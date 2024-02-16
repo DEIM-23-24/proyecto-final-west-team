@@ -9801,7 +9801,7 @@ RectTransform:
   m_GameObject: {fileID: 1410300676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 11.896005, y: 4.9504495, z: 4.8505287}
+  m_LocalScale: {x: 13.780395, y: 6.029704, z: 5.1076064}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1412086760}
@@ -13980,7 +13980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 319126652136932053, guid: 761dd2b81c1c09c44b0692909dd99af1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000014901159
+      value: -0.0000000074505797
       objectReference: {fileID: 0}
     - target: {fileID: 1533434924765666426, guid: 761dd2b81c1c09c44b0692909dd99af1, type: 3}
       propertyPath: m_YAxis.Value

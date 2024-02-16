@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -26,7 +27,11 @@ public bool arriba;
         }else{
             gameObject.GetComponent<RectTransform>().anchoredPosition = new Vector3(-806, posExit, 0);
             }
-        if (arriba && (Input.GetKeyDown(KeyCode.Return)))
+        if (arriba && (Input.GetKeyDown(KeyCode.Return))){
         SceneManager.LoadScene("Lvl1");
+        }
+        if (!arriba && (Input.GetKeyDown(KeyCode.Return))){
+        Application.Quit();
+        }
     }
 }

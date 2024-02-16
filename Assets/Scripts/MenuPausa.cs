@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MenuPausa : MonoBehaviour
@@ -17,6 +17,9 @@ public class MenuPausa : MonoBehaviour
                 ReanudarJuego();
             else
                 PausarJuego();
+        }
+        if (estaEnPausa && (Input.GetKeyDown(KeyCode.Escape))){
+        SceneManager.LoadScene("Menu");
         }
     }
 
