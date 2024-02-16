@@ -9753,7 +9753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1410300677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9844,6 +9844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasPausa: {fileID: 1410300676}
+  estaEnPausa: 0
+  activado: 0
 --- !u!114 &1412086757
 MonoBehaviour:
   m_ObjectHideFlags: 0

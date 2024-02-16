@@ -27,11 +27,12 @@ public bool arriba;
         }else{
             gameObject.GetComponent<RectTransform>().anchoredPosition = new Vector3(-806, posExit, 0);
             }
-        if (arriba && (Input.GetKeyDown(KeyCode.Return))){
-        SceneManager.LoadScene("Lvl1");
+        if (Input.GetAxisRaw("IniciarJuego")>0 && arriba)
+        {
+          SceneManager.LoadScene("Lvl1");
         }
-        if (!arriba && (Input.GetKeyDown(KeyCode.Return))){
-        Application.Quit();
+        if(Input.GetAxisRaw("SalirJuego")==0){
+         Application.Quit();   
         }
     }
 }

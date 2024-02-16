@@ -7,19 +7,26 @@ using UnityEngine;
 public class MenuPausa : MonoBehaviour
 {
     public GameObject canvasPausa;
-    private bool estaEnPausa = false;
+    public bool estaEnPausa = false;
+    public bool activado = false;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetAxisRaw("Pausa")>0 && !activado)
         {
+            activado = true;
             if (estaEnPausa)
                 ReanudarJuego();
             else
                 PausarJuego();
         }
-        if (estaEnPausa && (Input.GetKeyDown(KeyCode.Escape))){
-        SceneManager.LoadScene("Menu");
+        if(Input.GetAxisRaw("Pausa")==0){
+            activado = false;
+        }
+        if (Input.GetAxisRaw("VolverMenu")>0 && estaEnPausa)
+        {
+           SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
         }
     }
 
