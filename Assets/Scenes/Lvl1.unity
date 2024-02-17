@@ -10507,6 +10507,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4201306113206554526, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.50031734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201306113206554526, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
+      propertyPath: m_Center.x
+      value: 0.3822387
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201306113206554526, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
+      propertyPath: m_Center.y
+      value: 5.4569607
+      objectReference: {fileID: 0}
+    - target: {fileID: 4201306113206554526, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
+      propertyPath: m_Center.z
+      value: -0.28162828
+      objectReference: {fileID: 0}
     - target: {fileID: 5014447582079805780, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.27021617
@@ -10517,7 +10533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5014447582079805780, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
       propertyPath: m_LocalScale.z
-      value: -0.1739
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 5014447582079805780, guid: 3889ffe6dfd34844ab35e45c1a7b2ff9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14175,6 +14191,10 @@ PrefabInstance:
     - target: {fileID: 7998331727790600054, guid: 761dd2b81c1c09c44b0692909dd99af1, type: 3}
       propertyPath: m_Name
       value: Pistolita_Revolver_high_V6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7998331727790600054, guid: 761dd2b81c1c09c44b0692909dd99af1, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8922265219195405985, guid: 761dd2b81c1c09c44b0692909dd99af1, type: 3}
       propertyPath: velocidad
